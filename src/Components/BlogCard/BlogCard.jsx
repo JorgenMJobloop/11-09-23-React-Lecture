@@ -2,7 +2,7 @@ import useData from "../../hooks/useData";
 import styles from "./blogCard.module.css";
 
 export default function BlogCard() {
-    const data = useData("./Data/mockDatabase1.json");
+    const data = useData(".public/api/Data/mockDatabase1.json");
     // const { data, error, isLoading } = useData("http://localhost:5173/src/Data/mockDatabase1.json");
 
     console.log(data);
